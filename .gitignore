@@ -1,0 +1,19 @@
+# Rust build artifacts
+**/target/
+**/*.rlib
+**/*.rmeta
+**/*.d
+**/*.o
+**/*.so
+**/*.dll
+**/*.exe
+**/*.pdb
+**/*.dSYM/
+
+# Local binaries from rustc examples
+**/01-basics/00-hello-world/hello
+**/01-basics/00-hello-world/main
+**/01-basics/02-basic-syntax/basic-syntax
+
+# Cargo lockfiles (keep if you need reproducibility)
+**/Cargo.lock
