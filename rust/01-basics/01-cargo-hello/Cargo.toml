@@ -1,0 +1,6 @@
+[package]
+name = "cargo-hello"
+version = "0.1.0"
+edition = "2021"
+
+# 의존성이 필요할 때 [dependencies] 섹션에 추가합니다.
